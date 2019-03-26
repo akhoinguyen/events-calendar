@@ -3,14 +3,38 @@ html {
 }
 
 td {
-  border: 2px solid #ddd;
+  border: 2px solid #ccc;
 }
 
 tbody tr {
   height: 10em;
 }
 
-li {
+.events {
   border: 1px solid;
-  border-radius: 4px;
+  border-radius: 8px;
+}
+
+.bg-grey {
+  background-color: #f2f2f2;
+  border-color: #666;
+  color: #333;
+}
+
+.bg-red {
+  background-color: #f2bcbc;
+  border-color: #b92828;
+  color: #991919;
+}
+
+.bg-blue {
+  background-color: #d2d6f0;
+  border-color: #1d38da;
+  color: #38448e;
+}
+
+.bg-green {
+  background-color: #d1e0bf;
+  border-color: #6b7e54;
+  color: #51603f;
 }
